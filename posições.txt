@@ -7,7 +7,7 @@ Líbero
 
 levantador: O levantador é aquele jogador responsável por armar os ataques. Ou seja, ele “levanta” ou passa a bola para o jogador que irá atacar na sequência.
 
-oposto:posto é justamente o jogador que sempre atua na posição contrária a do levantador, em sua diagonal. Desta forma, é o principal atacante de um time, sendo uma boa opção também para vir do fundo da quadra e atacar antes mesmo da linha de três metros 
+oposto:oposto é justamente o jogador que sempre atua na posição contrária a do levantador, em sua diagonal. Desta forma, é o principal atacante de um time, sendo uma boa opção também para vir do fundo da quadra e atacar antes mesmo da linha de três metros 
 
 ponteiro: ponta, chamados também de ponteiros, ficam posicionados nas laterais da quadra. Eles atacam pela entrada e saída de rede, mas também têm a função de defender o ataque do time adversário, ajudando o líbero nos passes de defesa.
 
