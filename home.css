@@ -1,0 +1,23 @@
+.teste img {
+    
+    width: 200px;
+    height: 200px;
+    animation-name: teste;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    /* animation-play-state: paused; */
+}
+
+@keyframes teste{
+    0%{
+        transform: translateX(0px)  rotate(0);
+
+    }
+    25%{
+        transform: translateX(100px) translateY(200px) rotate(180deg);
+    }
+    50%{
+
+        transform: translateX(400px) translateY(400px) rotate(360deg)
+    }
+}
