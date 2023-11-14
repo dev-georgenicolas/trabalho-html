@@ -1,0 +1,30 @@
+/* Resetar CSS */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 100%;
+    height: 400px;
+    background-color: lightgrey;
+}
+
+.logo img{
+    width: 400px;
+    height: 300px;
+}
+
+.fieldborder{
+    color: white;
+    border-color: white;
+    padding: 10px;
+    border-radius: 15px;
+    height: 80%;
+    margin-top: 25px;
+    
+}
