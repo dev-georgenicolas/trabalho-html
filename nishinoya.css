@@ -1,4 +1,4 @@
-#dados{
+.dados{
 position: absolute;
 height: 15px;
 width: 9px;
@@ -6,3 +6,6 @@ width: 9px;
 
 
 }
+ p{
+    font-size: 100px;
+ }
