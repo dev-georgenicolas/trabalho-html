@@ -1,5 +1,15 @@
-#dados{
+.dados{
 position: absolute;
 height: 15px;
 width: 9px;
+<<<<<<< HEAD
 }
+=======
+
+
+
+}
+ p{
+    font-size: 100px;
+ }
+>>>>>>> 34e4ba4b08d541af35c9178a42880d989ce00281
