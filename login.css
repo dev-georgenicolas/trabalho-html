@@ -2,24 +2,29 @@
 *{
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
+    box-sizing: border-box
+}
+
+body{
+    background-color: black;
+
 }
 
 .logo{
     display: flex;
     justify-content: center;
-    align-items: end;
+    align-items: start;
     width: 100%;
-    height: 400px;
-    background-color: lightgrey;
+    height: 350px;
 }
 
 .logo img{
-    width: 400px;
-    height: 300px;
+    width: 500px;
+    height: 400px;
+
 }
 
-.fieldborder{
+/*.fieldborder{
     color: white;
     border-color: white;
     padding: 10px;
