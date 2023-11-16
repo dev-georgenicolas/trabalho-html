@@ -5,24 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="login.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <div class="logo"><img src="Haikyuu-Logo.png" alt=""></div>
-    <form action="" class="form">
-        <fieldset class="fieldborder">
-            <legend>Login</legend>
-            <div class="login">
-                <input type="text" id="login" placeholder="Login">
+    <div class="login">
+        <form action="">
+            <h1>Login</h1>
+            <div class="input">
+                <input type="text" placeholder="Usuário" required>
+                <i class='bx bxs-user' ></i>
             </div>
-            <div class="senha">
-                <input type="password" id="senha" placeholder="Senha">
+            <div class="input">
+                <input type="password" placeholder="Senha" required>
+                <i class='bx bxs-lock-alt'></i>
             </div>
-            <div>
-                <button class="butao">Logar</button>
-            </div>
-        </fieldset>
-
-    </form> 
+            <button type="submit" class="btn">Login</button>
+        </form>
+    </div>
 
 </body>
 </html>
