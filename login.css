@@ -24,7 +24,17 @@ body{
 
 }
 
-/*.fieldborder{
+.form{
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    font-size: 2rem;
+    
+}
+
+
+.fieldborder{
     color: white;
     border-color: white;
     padding: 10px;
@@ -32,4 +42,27 @@ body{
     height: 80%;
     margin-top: 25px;
     
+
 }
+
+.butao{
+    margin-top: 30px;
+    background-color: orange;
+    border: none;
+    padding: 15px;
+    border-radius: 100px;
+    color: white;
+    font-size: 25px ;
+    transition: transform .2s;
+}
+
+.butao:hover{
+    transform: scale(1.5);
+}
+
+input{
+    padding: 10px;
+    margin: 10px;
+    width: 97%;
+}
+
