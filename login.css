@@ -7,7 +7,8 @@
 body{
     overflow: hidden;
     display: flex;
-    justify-content: left;
+    justify-content: center;
+    transform: translateX(1200px);
     align-items: center;
     min-height: 70vh;
     background: darkgray;
@@ -18,8 +19,8 @@ body{
 
 
 .login{
-    margin-top: 300px;
-    margin-left: 200px ;
+    margin-top: 250px;
+    margin-right: 200px ;
     width: 420px;
     background: transparent;
     color: #ffff;
