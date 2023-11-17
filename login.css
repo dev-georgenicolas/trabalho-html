@@ -5,15 +5,17 @@
 }
 
 body{
+    overflow: hidden;
     display: flex;
     justify-content: left;
     align-items: center;
     margin-left: 200px;
-    min-height: 100vh;
+    min-height: 70vh;
     background: url('icons/login.jpeg')
 }
 
 .login{
+    
     width: 420px;
     background: transparent;
     color: #ffff;
@@ -63,7 +65,7 @@ body{
 .button-inter{
     
     text-align: center;
-    background-color: rgb(197, 149, 77)4, 127);
+    /* background-color: rgba(197, 149, 77, 0); */
 
 } 
 
@@ -72,6 +74,7 @@ body{
     height: 45px;
     border: none;
     background: transparent;
+    color: aliceblue;
     font-size: 16px;
 
 
@@ -79,7 +82,7 @@ body{
 
 .botao{
     
-    border-radius: 20px;
+    border-radius: 10px;
     position: relative;
     overflow: hidden;
 
@@ -112,7 +115,7 @@ body{
 
 .botao:hover span:nth-child(1){
     left: 100%;
-    transition: 1s;
+    transition: 1.5s;
     
 
     
@@ -168,3 +171,52 @@ body{
     
 }
 
+.container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.bolhas{
+    position: absolute;
+    display: flex;
+    
+
+}
+
+.bolhas span{
+    width: 30px;
+    height: 30px;
+    background-color: coral;
+    margin: 0 4px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 6px #ffa50044, 
+    0 0 50px coral,
+    0 0 100px coral;
+    animation: animar calc(160s / var(--i)) linear infinite;
+
+}
+
+@keyframes animar{
+    0% {
+
+        transform: translateY(100vh) scale(0);
+    }
+    100% {
+
+        transform: translateY(-10vh) scale(1);
+    }
+
+}
+
+
+
+.bolhas span:nth-of-type(even){
+    background-color: #00000095;
+    box-shadow: 0 0 0 5px rgb(0, 0, 0),
+    0 0 50px rgb(0, 0, 0),
+    0 0 100px rgb(0, 0, 0);
+
+
+}
