@@ -10,10 +10,10 @@ html, body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #222;
+    background-color:rgb(255, 255, 255);
     padding: 20px;
 
-    
+
 }
 
 .container{
@@ -25,35 +25,119 @@ html, body{
 }
 
 .card{
+    overflow: hidden;
     width: 280px;
     height: 500px;
     padding: 15px 15px;
-    background-color: #fff;
+    background-image: url(teste-removebg-preview.png);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 1px;
     transition: 0.5s;
+
 }
 
 
 .card:hover{
     transform: translateY(-20px);
-    background-color: darkred;
-    color: white;
+    box-shadow: 0 0 10px rgb(168, 43, 226), 0 0 15px #5c2be2, 0 0 30px #6b2be2; 
+    transition-delay: 1.5s;
+    
+    
 }
 
 
 .foto{
     width: 100%;
     height: 300px;
-    background: greenyellow;
+    /* background: greenyellow; */
 }
 
 
 .card a {
     text-decoration: none; 
-    color: inherit; 
+    color: rgb(0, 0, 0); 
     cursor: pointer;
     display: block
 }
 
 .info h1{
     text-align: center;
+    text-align:justify;
+}
+
+
+.card span{ 
+    position: absolute;
+    display: inline-block;
+    transition: 1.5;
+}
+
+.card span:nth-child(1){
+    width: 100%;
+    height: 3px;
+
+    top: 0;
+    left: -100%;
+
+    background: linear-gradient(90deg, transparent, rgb(79, 43, 145))
+}
+
+.card:hover span:nth-child(1){
+    left: 100%;
+    transition: 1.5s;
+    
+
+    
+}
+
+.card span:nth-child(2){
+    width: 2px;
+    height: 100%;
+
+    top: -100%;
+    right: 0;
+
+    background: linear-gradient(180deg, transparent, rgb(79, 20, 146))
+}
+
+.card:hover span:nth-child(2){
+    top: 100%;
+    transition-delay: 1s;
+    transition: 2s;
+}
+
+.card span:nth-child(3){
+    width: 100%;
+    height: 2px;
+
+    right: -100%;
+    bottom: 0;
+
+    background: linear-gradient(270deg, transparent, rgb(77, 39, 139))
+}
+
+.card:hover span:nth-child(3){
+    right: 100%;
+    transition-delay: 2s;
+    transition: 3s;
+}
+
+.card span:nth-child(4){
+    width: 2px;
+    height: 100%;
+
+    bottom: -100%;
+    left: 0;
+
+    background: linear-gradient(360deg, transparent, rgb(75, 30, 105))
+}
+
+.card:hover span:nth-child(4){
+    width: -100%;
+    bottom: 100%;
+    transition-delay: 3s;
+    transition: 4s;
+    
 }
