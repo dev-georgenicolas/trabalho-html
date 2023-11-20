@@ -13,22 +13,29 @@
 }
 
 .dados{
-    height: 100%;
-    color: white;
+    
+    color:black;
     margin: 20px;
+    min-height: 480px ;
+    width: calc(100% - 66px);
+    background-color: white;
+    border-radius: 7px;
+    padding: 24px 36px;
+    position: relative;
+    margin-left: auto;
+    
+    
+
+    
 }
-
-
-
 
 
 .fieldborder{
     
     color: #ff9100;
     border-color: #ff9100;
-    padding: 10px;
-    border-radius: 15px;
-    height: 100%;  
+    padding: 30px;
+    border-radius: 25px;
     margin-left: auto;    
     height: 517px;
     width: 250px;
@@ -36,8 +43,26 @@
     background-repeat: no-repeat;
     background-size: cover;
     margin-right: 100px;
+    
  }
 
+.fieldborderr{
+    color: black;
+    border-color: black;
+    padding: 60px; 
+    height: 500px;
+    width: 500px;
+    border-radius: 15px;
+    margin-right: 37%;
+    margin-left: auto;
+   background-color: white;
+}
+
+
+
  body{
-    background-color: rgb(90, 90, 90);
+    background-image: url(icons/fudno.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
  }
