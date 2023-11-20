@@ -11,7 +11,8 @@ body{
     transform: translateX(1200px);
     transform: translateX(500px);
     align-items: center;
-    min-height: 70vh;
+    animation: fundo 6s linear infinite ;  
+    
 <<<<<<< HEAD
 =======
     background: darkgray;
@@ -27,11 +28,11 @@ body{
     margin-left: 500px ;
     width: 420px;
     background: transparent;
-    color: #ffff;
+    color: #000000ff;
     border-radius: 10px;
     padding: 30px 40px;
-    border: 2px solid rgba(255, 255, 255, .2);
-    backdrop-filter: blur(20px);
+    border: 2px solid rgba(255, 106, 0, 0.2)2);
+    backdrop-filter: blur(10px);
 }
 
 .login h1{
@@ -233,11 +234,14 @@ body{
 
 }
     @keyframes fundo-imagem{
-        0%{
-            transform: tr
+        0%{ background-image: url(icons/Perfil_Yu_Nishinoya.webp);}
+        25%{ background-image: url(teste.jpg);}
+        75%{ background-image: url(teste.jpg);}
+        100%{ background-image: url(teste-removebg-preview.png);}
+            
 
 
-        }
+    
 
 
 
