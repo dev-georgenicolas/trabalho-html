@@ -11,6 +11,26 @@
 }
 
 body{
+<<<<<<< HEAD
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+  
+    align-items: center;
+    animation: fundo 10s linear infinite ;  
+    background-repeat: no-repeat ;
+    background-position: center;
+    background-size: cover;
+    height: 100%
+    
+    
+    
+    
+<<<<<<< HEAD
+=======
+    background: darkgray;
+=======
+>>>>>>> e1cbbd8ae01f957b255943a864c42b125b47e206
 
     overflow: hidden; 
     background: darkgray;
@@ -29,12 +49,17 @@ body{
     margin-left: 39%;
     width: 420px;
     background: transparent;
-    color: #ffff;
+    color: rgb(0, 0, 0);
     border-radius: 10px;
     padding: 30px 40px;
+<<<<<<< HEAD
+    border: 2px solid rgba(255, 183, 0, 0.2)2);
+    backdrop-filter: blur(10px);
+=======
     border: 2px solid rgba(255, 255, 255, .2);
     backdrop-filter: blur(10px);
     z-index: 2;
+>>>>>>> e1cbbd8ae01f957b255943a864c42b125b47e206
 }
 
 .login h1{
@@ -194,3 +219,66 @@ body{
 }
 
 
+<<<<<<< HEAD
+}
+
+.bolhas{
+    position: absolute;
+    display: flex;
+    
+
+}
+
+.bolhas span{
+    width: 10px;
+    height: 10px;
+    background-color: coral;
+    margin: 0 0px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 6px #ffa50044, 
+    0 0 25px coral,
+    0 0 50px coral;
+    animation: animar calc(160s / var(--i)) linear infinite;
+
+}
+
+@keyframes animar{
+    0% {
+
+        transform: translateY(100vh) scale(0);
+    }
+    100% {
+
+        transform: translateY(-10vh) scale(1);
+    }
+
+}
+
+
+
+.bolhas span:nth-of-type(even){
+    background-color: #00000095;
+    box-shadow: 0 0 0 2px rgb(0, 0, 0),
+    0 0 250px rgb(0, 0, 0),
+    0 0 50px rgb(0, 0, 0);
+
+
+}
+    @keyframes fundo{
+        /* 0%{ background-image: url(WhatsApp\ Image\ 2023-11-17\ at\ 09.06.56.jpeg);} */
+        0%{ background-image: url(nishinoya.jpg);}
+        /* 50%{ background-image: url(WhatsApp\ Image\ 2023-11-17\ at\ 09.06.57\ \(1\).jpeg);} */
+        100%{ background-image: url(WhatsApp\ Image\ 2023-11-17\ at\ 09.06.57\ \(2\).jpeg);}
+        
+            
+
+
+    
+
+
+
+    }
+=======
+>>>>>>> 5540996eb2c5d34a2f011889e93c8ac92225142b
+=======
+>>>>>>> e1cbbd8ae01f957b255943a864c42b125b47e206
