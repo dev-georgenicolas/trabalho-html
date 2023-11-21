@@ -75,18 +75,18 @@
                 <form action="">
                     <h1>Login</h1>
                     <div class="input">
-                        <input type="text" placeholder="Usuário" required id="user">
+                        <input type="text" placeholder="Usuário" id="login">
                         <i class='bx bxs-user' ></i>
                     </div>
                     <div class="input">
-                        <input type="password" placeholder="Senha" required id="senha">
+                        <input type="password" placeholder="Senha" id="senha">
                         <i class='bx bxs-lock-alt'></i>
                     </div>
                     <div class="button-inter botao">
                         <span></span>
                         <span></span>
                         <span></span>
-                        <span></span><input type="submit" placeholder="Login" id="button-login" ></div>
+                        <span></span><input type="submit" placeholder="Login" id="button-login" onclick="logar()" ></div>
                 </form>
             </div>
         </div>
@@ -97,5 +97,27 @@
 
 
                 </div>
+                <div class="Legendtxt">
+                    <h1>haikyuu</h1>1
+            
+
+
+
+                </div>
+
+
+                <script>
+                    function logar(){
+                        
+                        var login = document.getElementById('login').value;
+                        var senha = document.getElementById('senha').value;
+                    
+                        if(login === "wlawla" && senha === "157"){   
+                          alert('Sucesso');}
+                        else{
+                          alert('Login desconhecido');
+                        }
+                }
+                </script>
 </body>
 </html>
