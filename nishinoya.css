@@ -11,7 +11,7 @@
 .legendTxt{
     color: #ff9100;
     font-family: haikyuu;
-    font-size: 30px;
+    font-size: 40px;
     
 }
 
@@ -22,7 +22,7 @@
 height: 100%;
 color: white;
 margin: 20px;
-
+text-decoration: none;
 }
  p{
     font-size: 100px;
