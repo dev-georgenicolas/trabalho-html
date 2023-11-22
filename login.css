@@ -8,6 +8,9 @@
 @font-face {
     font-family: poppins;
     src: url(Poppins/Poppins-Medium.ttf);
+    font-family: font1;
+    src: url(fonte1.zip.);
+
 }
 
 body{
@@ -16,12 +19,26 @@ body{
     background: darkgray;
     display: flex;
     padding: auto;
-    background-image: url(quadra\ fundo.jpg);
+    background-image: url(fundoooo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     
 }
+Legendtxt{ 
+    border-radius: 10px;
+    padding: 30px 40px;
+    margin-left: 49%;
+    position: absolute;
+    font-family: font1;
+    margin-top: 25%;
+    width: 450px;
+    color: #e2742b;
 
+
+
+
+
+}
 
 .login{
     position: absolute;
@@ -33,7 +50,7 @@ body{
     border-radius: 10px;
     padding: 30px 40px;
     border: 2px solid rgba(255, 255, 255, .2);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(7px);
     z-index: 2;
 }
 
@@ -192,5 +209,6 @@ body{
     transition: 3.5s;
     
 }
+
 
 

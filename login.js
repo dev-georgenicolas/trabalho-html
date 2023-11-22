@@ -1,10 +1,13 @@
 <script>
-    function logar() {
-        var login = document.getElementyById('user').value;
-        var senha = document.getElementyById('senha').value;
+    function logar(){
+        
+        var login = document.getElementById('login').value;
+        var senha = document.getElementById('senha').value;
     
-        if (login === "wlawla" && senha === "157"){   
-          alert('Sucesso') }
-
-    }
+        if(login === "wlawla" && senha === "157"){   
+          alert('Sucesso');}
+        else{
+          alert('Login desconhecido');
+        }
+}
 </script>
