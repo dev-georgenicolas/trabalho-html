@@ -9,6 +9,7 @@ body{
     font-family: poppins;
 }
 
+
 @font-face {
     font-family: poppins;
     src: url(Poppins/Poppins-Medium.ttf);
@@ -21,7 +22,6 @@ body{
     justify-content: center;
 }
 
-.container h1{}
 
 .info{
     display: flex;
@@ -46,4 +46,6 @@ body{
     height: 500px;
     border-radius: 25px;
 }
+
+
 
