@@ -7,6 +7,9 @@
 body{
     background-color: #222;
     font-family: poppins;
+    background-image: url(icons/Design\ sem\ nome\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
