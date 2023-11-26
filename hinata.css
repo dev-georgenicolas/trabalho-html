@@ -54,7 +54,7 @@
 
 .fieldborder{
     
-    color: #ff9100;
+    color: #000000;
     border-color: #ff9100;
     padding: 30px;
     border-radius: 25px;
@@ -84,4 +84,8 @@
     text-decoration: none;
     color: #ff9100;
     
+ }
+
+ b{
+    color: #ff9100;
  }
