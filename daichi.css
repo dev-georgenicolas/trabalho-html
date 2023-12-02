@@ -10,8 +10,15 @@
     src: url(Poppins/Poppins-Medium.ttf);
 }
 
+.titulo{
+    padding: 5px;
+    height: 100px;
+    width: 100%;
+}
+
 
 .legendTxt{
+    margin-top: 20px;
     color: #ff9100;
     font-family: haikyuu;
     font-size: 20px;
@@ -91,3 +98,7 @@
     color: #ff9100;
  }
 
+ 
+ p{
+    text-align: justify;
+ }
