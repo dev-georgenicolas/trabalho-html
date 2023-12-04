@@ -12,6 +12,10 @@ html, body{
     background-color: #222;
 }
 
+a {
+    text-decoration: none;
+}
+
 .container{
     display: flex;
     width: 100%;
@@ -22,7 +26,6 @@ html, body{
 
     width: 280px;
     height: 500px;
-<<<<<<< HEAD
     padding: 15px 15px;
     background-image: url();
     background-size: cover;
@@ -31,7 +34,6 @@ html, body{
     border-radius: 1px;
     transition: 0.5s;
 
-=======
     padding: 2rem 1rem;
     background: #fff;
     position: relative;
@@ -39,7 +41,6 @@ html, body{
     align-items: flex-end;
     transition: 0.5s ease-in-out;
     border-radius: 10px;
->>>>>>> e1cbbd8ae01f957b255943a864c42b125b47e206
 }
 
 .card:hover{

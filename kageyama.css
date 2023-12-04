@@ -10,8 +10,15 @@
     src: url(Poppins/Poppins-Medium.ttf);
 }
 
+.titulo{
+    padding: 5px;
+    height: 100px;
+    width: 100%;
+}
+
 
 .legendTxt{
+    margin-top: 20px;
     color: #ff9100;
     font-family: haikyuu;
     font-size: 20px;
@@ -27,6 +34,7 @@
     height: 100%;
     display: flex;
     justify-content: center;
+    
 }
 
 .dados{
@@ -52,8 +60,7 @@
 
 
 .fieldborder{
-    
-    color: #ff9100;
+    color: #000000;
     border-color: #ff9100;
     padding: 30px;
     border-radius: 25px;
@@ -87,4 +94,9 @@
 
  b{
     color: #ff9100;
+ }
+
+ 
+ p{
+    text-align: justify;
  }
