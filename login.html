@@ -86,7 +86,7 @@
                         <span></span>
                         <span></span>
                         <span></span>
-                        <span></span><input type="submit" placeholder="Login" id="button-login" onclick="logar()" ></div>
+                        <span></span><input type="submit" placeholder="Login" id="button-login" onclick="logar(); return false" ></div>
                 </form>
             </div>
         </div>
@@ -104,20 +104,7 @@
 
 
                 </div>
-
-
-                <script>
-                    function logar(){
-                        
-                        var login = document.getElementById('login').value;
-                        var senha = document.getElementById('senha').value;
-                    
-                        if(login === "wlawla" && senha === "157"){   
-                          alert('Sucesso');}
-                        else{
-                          alert('Login desconhecido');
-                        }
-                }
-                </script>
+                
 </body>
+
 </html>
