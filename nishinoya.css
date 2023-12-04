@@ -1,49 +1,102 @@
-*{
-    margin: 0px; padding: 0px; box-sizing: border-box;
-}
+*{margin: 0px; padding: 0px; box-sizing: border-box}
 
 @font-face{
     font-family: haikyuu;
     src: url(icons/dimitri/DIMITRI_.TTF);
 }
 
+@font-face {
+    font-family: poppins;
+    src: url(Poppins/Poppins-Medium.ttf);
+}
+
+.titulo{
+    padding: 5px;
+    height: 100px;
+    width: 100%;
+}
+
 
 .legendTxt{
+    margin-top: 20px;
     color: #ff9100;
     font-family: haikyuu;
-    font-size: 40px;
-    
+    font-size: 20px;
 }
 
+.subt{
+    color: #ff9100;
+    font-family: poppins;
+}
 
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
 
 .dados{
-
-height: 100%;
-color: white;
-margin: 20px;
-text-decoration: none;
-}
- p{
-    font-size: 100px;
- }
-
- .fieldborder{
     
-    color: #ff9100;
+    color:rgb(0, 0, 0);
+    font-size: 17px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 30px;
+    min-height: 480px ;
+    width: 60%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 7px;
+    padding: 24px 36px;
+    position: relative;
+    margin-left: auto;
+    margin-right: 350px;
+    
+    
+    
+}
+
+
+.fieldborder{
+    
+    color: #000000;
     border-color: #ff9100;
-    padding: 10px;
-    border-radius: 15px;
-    height: 100%;  
+    padding: 30px;
+    border-radius: 25px;
     margin-left: auto;    
-    height: 559px;
-    width: 250px;
-    background-image: url(icons/Perfil_Yu_Nishinoya.webp);
+    min-height: 517px;
+    width: 250px;   
     background-repeat: no-repeat;
     background-size: cover;
-    margin-right: 100px;
+    margin-right: 5px;
+    
  }
- 
+
+.fieldborder img{
+    width: auto;
+    height: 500px;
+}
+
  body{
-    background-color: rgb(90, 90, 90);
+    background-image: url(icons/Design\ sem\ nome\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: poppins;
+ }
+
+
+ a{
+    text-decoration: none;
+    color: #ff9100;
+    
+ }
+
+ b{
+    color: #ff9100;
+ }
+
+ 
+ p{
+    text-align: justify;
  }
