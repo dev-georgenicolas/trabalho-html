@@ -17,6 +17,7 @@ body{
     background: darkgray;
     display: flex;
     padding: auto;
+    position: relative;
     background-image: url(peidei.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -32,12 +33,29 @@ body{
 
 
 }
+.elemento2{
+background-image: url();
+background-repeat: no-repeat;
+background-size: cover;
+position: absolute;
+height: 80vh;
+width: 50%;
+margin-left: -100px;
+margin-top: -280px;
+z-index: 1;
+
+
+
+
+
+
+}
 
 
 .login{
     position: absolute;
-    margin-top: 15%;
-    margin-left: 10%;
+    margin-top: 27%;
+    margin-left: 17%;
     width: 420px;
     background: transparent;
     color: #ffff;
@@ -209,12 +227,4 @@ body{
     transition-delay: 2.5s;
     transition: 3.5s;
     
-}
-@keyframes bola{
-    
-    
-    }
-
-
-
 }
