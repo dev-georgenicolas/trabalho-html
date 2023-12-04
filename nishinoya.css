@@ -88,10 +88,17 @@
 .navigation{
 position: relative;
 margin-top: -1000px;
-height: 500px;
-width: 300px;
-box-shadow: 10px 0 0 #ff9100;
+height: 370px;
+width: 80px;
+box-shadow: 10px 0 0  rgb(255, 132, 0);
 background-color: #000000;
+border-left: 10px solid #000000 ;
+overflow-x: hidden;
+transition: 0.7s;
+
+}
+.navigation:hover{
+width: 300px;
 
 }
 .navigation ul{
@@ -100,13 +107,13 @@ left: 0;
 width: 100%;
 padding-left: 5px;
 padding-top: 40px;
-
 }
 .navigation ul li{
 position: relative;
 list-style: none;
 width: 100%;
-
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
 }
 .navigation ul li a{
 position: relative;
@@ -128,10 +135,39 @@ color: rgb(255, 255, 255);
 position: relative;
 font-size: 1.5rem;
 z-index: 1;
-
-
-
-
+}
+.navigation ul li a .title{
+    position: relative;
+    display: block;
+    padding-left: 10px;
+    height: 60px;
+    line-height: 60px;
+    white-space: nowrap;
+}
+.navigation ul li.active{
+background:  rgb(255, 132, 0);
+}
+.navigation ul li.active a::before{
+    content: '';
+    position:absolute;
+    top: -30px;
+    right: 0px;
+    width: 30px;
+    height: 30px;
+    background: rgb(0, 0, 0);
+    border-radius: 50%;
+    box-shadow: 15px 15px 0 rgb(255, 132, 0);
+}
+.navigation ul li.active a::after{
+    content: '';
+    position:absolute;
+    bottom: -30px;
+    right: 0px;
+    width: 30px;
+    height: 30px;
+    background: rgb(0, 0, 0);
+    border-radius: 50%;
+    box-shadow: 15px -15px 0 rgb(255, 132, 0);
 }
  a{
     text-decoration: none;

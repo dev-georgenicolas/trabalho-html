@@ -40,7 +40,61 @@
             </fieldset>
         </div>
     </div>
-    
+    <div class="navigation">
+        <ul>
+            <li class="list active">
+                <a href="#">
+                    <span class="icon"><ion-icon name="home-outline"></ion-icon> </span>
+                    <span class="title">Home</span>
+
+                </a>
+            </li>     <li class="list">
+                <a href="hinata.html">
+                    <span class="icon"> <ion-icon name="basketball-outline"></ion-icon></span>
+                    <span class="title">Hinata</span>
+
+                </a>
+            </li>
+                    <li class="list">
+                <a href="Nishinoya.HTML">
+                    <span class="icon"> <ion-icon name="basketball-outline"></ion-icon></span>
+                    <span class="title">Nishinoya</span>
+                
+
+                </a>
+            </li>
+            <li class="list">
+                <a href="kageyama.html">
+                    <span class="icon"> <ion-icon name="basketball-outline"></ion-icon></span>
+                    <span class="title">Kageyama</span>
+
+                </a>
+            </li>
+            <li class="list">
+                <a href="Daichi.html">
+                    <span class="icon"> <ion-icon name="basketball-outline"></ion-icon></span>
+                    <span class="title">Sawamura</span>
+
+                </a>
+            </li>
+        </ul>
+    </div>
+   
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <script>
+        const list = document.querySelectorAll('.list')
+        function activeLink(){
+            list.forEach((item) =>
+            item.classList.remove('active'));
+            this.classList.add('active')
+        }
+        list.forEach((item) =>
+        item.addEventListener('click' , activeLink))
+
+    </script>
 
     
 
