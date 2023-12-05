@@ -18,7 +18,7 @@ body{
     display: flex;
     padding: auto;
     position: relative;
-    background-image: url(peidei.png);
+    background-image: url(741752.png);
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -55,14 +55,14 @@ z-index: 1;
 .login{
     position: absolute;
     margin-top: 27%;
-    margin-left: 17%;
+    margin-left: 80%;
     width: 420px;
     background: transparent;
-    color: #ffff;
+    color: #000000;
     border-radius: 10px;
     padding: 30px 40px;
     border: 2px solid rgba(255, 255, 255, .2);
-    backdrop-filter: blur(7px);
+    backdrop-filter: blur(10px);
     z-index: 2;
 }
 
@@ -89,13 +89,13 @@ z-index: 1;
     border: 2px solid rgba(255, 255, 255, .2);
     border-radius: 40px;
     font-size: 16px;
-    color: #ffff;
+    color: #000000;
     padding: 20px 45px 20px 20px;
     font-family: poppins;
 }
 
 .input input::placeholder{
-    color: #ffff;
+    color: #000000;
 }
 
 .input i{
@@ -129,8 +129,8 @@ z-index: 1;
     border:none;
     
     backdrop-filter: blur(15px);
-    background-color: white;
-    color: black;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-size: 16px;
     font-size: 18px;
 
