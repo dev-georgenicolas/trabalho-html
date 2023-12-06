@@ -1,0 +1,33 @@
+*{margin: 0px; padding: 0px; box-sizing: border-box}
+body{
+
+    overflow: hidden; 
+    background-color: #ef964f;
+    display: flex;
+    padding: auto;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: anima 14s linear infinite;
+}
+
+ 
+
+@font-face {
+    font-family: "poppins";
+    src: url(Poppins/Poppins-Medium.ttf);
+}
+
+@keyframes anima{
+        1%{ background: url(cad.png);background-repeat:no-repeat; background-size: cover ; margin-left: ;} 
+        25%{ background: url(22.png);background-repeat:no-repeat; background-size: cover ; margin-right: 150%;} 
+        50%{background: url(3.png);background-repeat:no-repeat; background-size: cover ; margin-left: 150%;}
+        75%{background: url(4.png);background-repeat:no-repeat; background-size: cover ; margin-right: 150%; }
+        100%{background: url(5.png);background-repeat:no-repeat; background-size: cover ; margin-left: 150%;}
+        
+
+    }
+    
+.fieldborder{
+
+}
