@@ -64,6 +64,7 @@ z-index: 1;
     border: 2px solid rgba(255, 255, 255, .2);
     backdrop-filter: blur(10px);
     z-index: 2;
+
 }
 
 .login h1{
@@ -227,4 +228,9 @@ z-index: 1;
     transition-delay: 2.5s;
     transition: 3.5s;
     
+}
+
+a{
+    text-decoration: none;
+    color:#ef964f;
 }
