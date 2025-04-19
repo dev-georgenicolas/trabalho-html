@@ -15,6 +15,9 @@
     else if(login === "nico" && senha === "123157"){
         window.location.href = "cards.html";
     }
+        else if(login === "admin" && senha === "admin"){
+            window.location.href = "cards.html";
+    }
     else if(login === "malvadezas" && senha === "reidelas"){
         window.location.href = "cards.html";
     }
